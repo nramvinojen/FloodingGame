@@ -2,6 +2,7 @@
 ![image](https://user-images.githubusercontent.com/44415943/127445623-408589f5-35b3-465d-81f4-f9063f4ef09f.png)
 
 -----------------------------To run the game-------------------------------
+
 please run the file "driver.py", use command
 "python driver.py"
 
@@ -24,6 +25,7 @@ the png my cause error during run time, this can be corrected by visiting line 1
 ------------------------------Test case implementation------------------------------------
 
 ----------Unit test - tests a particular fuction code-----
+
 But i have impletemented one unit test case for "advance bot color choosing" - function
 
 to run it use the command "python -m unittest test_getNextColorAdvBot.py"
@@ -31,6 +33,7 @@ to run it use the command "python -m unittest test_getNextColorAdvBot.py"
 this has 2 test files impletemented, more test cases can be added just by adding more files "Testx.csv"
 
 -----------Game test - tests the game board code as a system------------
+
 to Run, use the command "python TestCase.py"
 this also takes the inputs and the correct output from csv file
 hence more tests can be added
@@ -40,12 +43,16 @@ then picks a particular color to play and test if the "board" reacts correctly
 this is repeated till the game is completed
 
 ------------------------------Future addtions------------------------------------
+
 ---test----
+
 I can add unit test for other fuctions, such as "get neightbour", "get boundary" , "switch color"etc
 Also I would like to add more system test for the board and bot
+
 -----corner case testing, coverage testing are warranted---
 
 ---bot algoritm---
+
 the bot can be improved,
 if time complexity is not a concern then i would continue doing the same idea but go deper for 2 levels of
 longest chain detection in my bot
@@ -54,5 +61,6 @@ to reduce the complexity, then i would try to implemnet a graph based method
 -----interface, and graphic output---
 
 ------------------------------Know Bugs------------------------------------
+
 the gameplay.png, changes the color mapping from step to step
 the advanced bot, has corner case bugs, not a big error but still bug - this will be testing in the unit test planed for future
