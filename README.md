@@ -1,3 +1,6 @@
+
+![image](https://user-images.githubusercontent.com/44415943/127445623-408589f5-35b3-465d-81f4-f9063f4ef09f.png)
+
 -----------------------------To run the game-------------------------------
 please run the file "driver.py", use command
 "python driver.py"
@@ -17,9 +20,6 @@ show all the steps till the finish of the game, a primitive way to see the resul
 the png my cause error during run time, this can be corrected by visiting line 15 in driver.py file
 "pltRow, pltCol = 7, 7", this only allow 49 images to display.
 
----
-
----
 
 ------------------------------Test case implementation------------------------------------
 
@@ -39,10 +39,6 @@ this test first sets the board to a particular configuration
 then picks a particular color to play and test if the "board" reacts correctly
 this is repeated till the game is completed
 
----
-
----
-
 ------------------------------Future addtions------------------------------------
 ---test----
 I can add unit test for other fuctions, such as "get neightbour", "get boundary" , "switch color"etc
@@ -56,10 +52,6 @@ longest chain detection in my bot
 to reduce the complexity, then i would try to implemnet a graph based method
 
 -----interface, and graphic output---
-
----
-
----
 
 ------------------------------Know Bugs------------------------------------
 the gameplay.png, changes the color mapping from step to step
